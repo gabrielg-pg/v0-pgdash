@@ -4,6 +4,7 @@
   "private": true,
   "packageManager": "pnpm@9.15.0",
   "scripts": {
+    "preinstall": "rm -rf node_modules || true",
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
